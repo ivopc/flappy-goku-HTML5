@@ -1,0 +1,31 @@
+{
+  "name": "flappy-goku-html5",
+  "version": "1.0.0",
+  "description": "Flappy Bird HTML5 clone with DBZ thematic made with vanilla and es6 features. Created just to study a decent game lib creation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivopc/flappy-goku-HTML5.git"
+  },
+  "keywords": [
+    "flappy-bird",
+    "clone",
+    "html5",
+    "js",
+    "vanilla",
+    "dbz",
+    "goku"
+  ],
+  "author": "ivopc <ivoopc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivopc/flappy-goku-HTML5/issues"
+  },
+  "homepage": "https://github.com/ivopc/flappy-goku-HTML5#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "presentation": {
+        "background": {
+            "x": 0,
+            "y": 0,
+            "texture": "start-background"
+        },
+        "start-btn": {
+            "x": 314,
+            "y": 159,
+            "texture": "btn-start"
+        }
+    },
+    "gameplay": {
+        "player": {
+            "x": 10,
+            "y": 120,
+            "texture": "goku"
+        }
+    }
+}
