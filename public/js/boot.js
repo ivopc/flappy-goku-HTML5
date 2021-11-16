@@ -2,7 +2,7 @@ import Game from "./Game.js";
 import AssetLoader from "./lib/AssetLoader.js";
 
 async function init () {
-    const assets = await AssetLoader.load([
+    const assets = await AssetLoader.fetch([
         // json
         { key: "layout", url: "data/layout.json", type: "json" },
         { key: "gameconfig", url: "data/game.json", type: "json" },

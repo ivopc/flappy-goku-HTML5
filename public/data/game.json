@@ -3,5 +3,6 @@
     "dimension": {
         "width": 480,
         "height": 270
-    }
+    },
+    "framerate": 20
 }

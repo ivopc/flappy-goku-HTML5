@@ -17,5 +17,12 @@
             "y": 120,
             "texture": "goku"
         }
+    },
+    "gameover": {
+        "background": {
+            "x": 0,
+            "y": 0,
+            "texture": "gameover-background"
+        }
     }
 }
