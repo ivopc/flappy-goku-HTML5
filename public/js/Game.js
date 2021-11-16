@@ -20,6 +20,7 @@ class Game {
          */
         this.assets;
         this.loop;
+        this.framerate;
         this.manager = {
             /**
              * @type {EventManager}
@@ -60,6 +61,7 @@ class Game {
         document.title = this.assets.json["gameconfig"].title;
         this.canvas.width = this.assets.json["gameconfig"].dimension.width;
         this.canvas.height = this.assets.json["gameconfig"].dimension.height;
+        this.framerate = this.assets.json["gameconfig"].framerate;
     }
 
     setAssets (assets) {

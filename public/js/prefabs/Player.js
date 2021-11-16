@@ -50,8 +50,10 @@ class Player extends Sprite {
     }
 
     set isDead (dead) {
-        if (dead)
+        if (dead) {
             this.destroy();
+            this.game.manager.scene.switch("GameOver");
+        };
     }
 };
 

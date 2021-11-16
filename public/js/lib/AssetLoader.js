@@ -1,5 +1,5 @@
 class AssetLoader {
-    static async load (assets) {
+    static async fetch (assets) {
         await Promise.all([
             this.loadImages(assets.filter(asset => asset.type === "image")),
             this.loadAudios(assets.filter(asset => asset.type === "audio")),
