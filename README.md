@@ -1,4 +1,4 @@
-# (Outdated project, crap architecture. But you can study it if you want. Planning to write new one)
+# (Not complete yet lol)
 # flappy-goku-HTML5
 Flappy bird-like game made without frameworks or libs, just studying.
 
